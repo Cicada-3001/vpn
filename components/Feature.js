@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -22,7 +22,7 @@ const Feature = () => {
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
-            <Image
+            <img
               src="/assets/Illustration2.png"
               alt="VPN Illustrasi"
               layout="responsive"

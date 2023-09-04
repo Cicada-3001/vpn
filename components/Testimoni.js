@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 // import react slick
 import Slider from "react-slick";
-import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
@@ -94,7 +93,7 @@ const Testimoni = ({
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1">
-                  <Image
+                  <img
                     src={listTestimonis.image}
                     height={50}
                     width={50}
