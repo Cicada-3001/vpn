@@ -3,14 +3,14 @@ import LogoVPN from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
-import Image from 'next/image'
+
 
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <Image src="/assets/logo.png" className="h-8 w-auto" width={149} height={37} />
+          <img src="/assets/logo.png" className="h-8 w-auto" width={149} height={37} />
           <p className="mb-4">
             <strong className="font-medium">ArchiCreate</strong> is a leading architectural visualization and 3D modeling company based in the vibrant city of Nairobi, Kenya. 
           </p>
