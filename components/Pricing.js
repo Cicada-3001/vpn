@@ -48,31 +48,32 @@ const Pricing = () => {
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
                     src="/assets/Free.png"
-                    width={145}
-                    height={165}
+                    width={125}
+                    height={125}
                     alt="Free Plan"
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                  Standard Package: Silver
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-2">
-                    Unlimited Bandwitch
+                  <li className="relative check custom-list my-2 text-sm">
+                    Architectural Visualization
                   </li>
-                  <li className="relative check custom-list my-2">
-                    Encrypted Connection
+                  <li className="relative check custom-list my-2 text-sm">
+                    Interior  Rendering
+                    
                   </li>
-                  <li className="relative check custom-list my-2">
-                    No Traffic Logs
+                  <li className="relative check custom-list my-2 text-sm">
+                    Exterior Rendering
                   </li>
-                  <li className="relative check custom-list my-2">
-                    Works on All Devices
+                  <li className="relative check custom-list my-2 text-sm">
+                    Basic Motion Graphic
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                    <span className="text-black-500 text-sm">starting from</span> $200
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
                 </div>
@@ -92,34 +93,34 @@ const Pricing = () => {
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
                   src="/assets/Standard.png"
-                  width={145}
-                  height={165}
+                  width={125}
+                  height={125}
                   alt="Standard Plan"
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+                Standard Package: Gold
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                <li className="relative check custom-list my-2 text-sm">
+                  Architectural Visualization
                 </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
+                <li className="relative check custom-list my-2 text-sm">
+                  Interior Rendering
                 </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
+                <li className="relative check custom-list my-2 text-sm">
+                  Exterior Rendering
                 </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
+                <li className="relative check custom-list my-2 text-sm" >
+                  Platinum Motion Graphics
                 </li>
-                <li className="relative check custom-list my-2">
+                <li className="relative check custom-list my-2 text-sm">
                   Connect Anyware{" "}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                <span className="text-black-500 text-sm">starting from</span> $500
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
@@ -139,37 +140,37 @@ const Pricing = () => {
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
                   src="/assets/Premium.png"
-                  width={145}
-                  height={165}
+                  width={125}
+                  height={125}
                   alt="Premium Plan"
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
+                  Premium Package: Platinum
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                <li className="relative check custom-list my-2 text-sm">
+                  Architectural Visualization
                 </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
+                <li className="relative check custom-list my-2 text-sm">
+                  Interior Rendering 
                 </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
+                <li className="relative check custom-list my-2 text-sm">
+                  Exterior Rendering
                 </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
+                <li className="relative check custom-list my-2 text-sm">
+                  Deluxe Motion Graphic and Virtual Tour 
                 </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
+                <li className="relative check custom-list my-2 text-sm">
+                  Custom Consultation
                 </li>
-                <li className="relative check custom-list my-2">
+                <li className="relative check custom-list my-2 text-sm">
                   Get New Features{" "}
                 </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                   <span className="text-black-500 text-sm">starting from </span> $1200
                 </p>
 
                 <ButtonOutline>Select</ButtonOutline>
@@ -183,46 +184,15 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Huge Global Network of Projects{" "}
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+              See Archicreate is everywhere trying to impact the globe
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
             <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}> 
-              <Maps className="w-full h-auto" />
-            </motion.div>
-          </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper>
-            <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
-              {/* <Netflix className="h-18 w-auto" /> */}
-              <img
-                src="/assets/Icon/amazon.png"
-                className="h-14 w-auto mt-4 lg:mt-2"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/netflix.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/reddit.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/discord.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/spotify.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
+              <Maps className="w-full h-[200]" />
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
@@ -231,14 +201,14 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-              Trusted by Thousands of Happy Customer{" "}
+              Trusted by Thousands of Happy Customers{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
               These are the stories of our customers who have joined us with great
-              pleasure when using this crazy feature.
+              pleasure when using our services.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">

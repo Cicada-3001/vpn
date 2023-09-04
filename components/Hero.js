@@ -8,18 +8,18 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
-      number: "390",
+      name: "Customers",
+      number: "290",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
-      number: "20",
+      number: "15",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "Projects",
+      number: "500",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -37,11 +37,11 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+                Want anything to be easy with <strong>ArchiCreate</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+                Unlock a world of creativity and visual storytelling with ArchiCreate! <br></br>
+                Explore a wide range of exciting features and services that make rendering and modeling a breeze. Discover what sets us apart."
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>

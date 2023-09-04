@@ -1,12 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "LaslesVPN",
-  "short_name": "LaslesVPN",
+  "name": "ArchiCreate",
+  "short_name": "ArchiCreate",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#F53838",
-  "description": "LaslesVPN Best VPN For Privacy, Country and Cheapest.",
+  "description": "A leading architectural visualization and 3D modeling  we specialize in bringing your design concepts to life through stunning 3D renderings and immersive modeling.",
   "icons": [
     {
       "src": "/favicon/android-icon-36x36.png",

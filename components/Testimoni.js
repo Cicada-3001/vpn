@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Julius Kimani",
+      image: "/assets/southan.jpg",
+      city: "Nairobi",
+      country: "Kenya",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Incredible architectural visualizations! Archicreate exceeded my expectations with their attention to detail and professionalism.",
+    },
+    {
+      name: "Aarav Patel",
+      image: "/assets/indian.jpg",
+      city: "Delhi",
+      country: "India",
+      rating: "4.5",
+      testimoni:
+        "ArchiCreate's interior rendering brought our project to life! The team's dedication and creativity truly shine. We couldn't be happier with the results!",
+    },
+    {
+      name: "Chinedu Okafor",
+      image: "/assets/nigerian.jpg",
+      city: "Abuja",
+      country: "Nigeria",
+      rating: "4.5",
+      testimoni:
+        "The exterior rendering from RenderHub showcased our property perfectly. Their expertise in landscaping and lighting made our project stand out.",
     },
     {
       name: "iezh Robert",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Kigali",
+      country: "Rwanda",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
-    {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
-    {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "ArchiCreate's motion graphics took our property presentations to the next level. They transformed our projects into immersive experiences ",
     },
   ],
 }) => {
@@ -99,6 +99,7 @@ const Testimoni = ({
                     height={50}
                     width={50}
                     alt="Icon People"
+                    style={{ borderRadius: '100%'}}
                   />
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">
