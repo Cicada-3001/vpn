@@ -33,7 +33,7 @@ const Testimoni = ({
       country: "Nigeria",
       rating: "4.5",
       testimoni:
-        "The exterior rendering from RenderHub showcased our property perfectly. Their expertise in landscaping and lighting made our project stand out.",
+        "The exterior rendering from Archicreate showcased our property perfectly. Their expertise in landscaping and lighting made our project stand out.",
     },
     {
       name: "iezh Robert",
